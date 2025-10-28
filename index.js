@@ -86,7 +86,7 @@ app.get("/api/:date?",(req,res)=>{
     return res.json({unix, utc});
   }
 
-  return res.jsonjson({ error : "Invalid Date" });
+  return res.json({ error : "Invalid Date" });
 })
 
 
